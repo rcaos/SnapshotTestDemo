@@ -18,6 +18,7 @@ class SnapshotTestDemoTests: FBSnapshotTestCase {
   override func setUp() {
     super.setUp()
     //self.recordMode = true
+    fileNameOptions = [.device, .OS, .screenScale]
 
     rootWindow = UIWindow(frame: UIScreen.main.bounds)
     rootWindow.isHidden = false
