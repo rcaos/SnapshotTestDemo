@@ -13,6 +13,10 @@ import SnapshotTesting
 
 class PointFreeDemoTests: XCTestCase {
 
+  override func setUp() {
+    isRecording = false
+  }
+
   func test_BreakingBad_PointFree() {
     // given
     let model = TVShowDetailInfo.stub(name: "Breaking Bad")
