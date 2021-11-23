@@ -14,15 +14,11 @@
 		77430B51274BE8E60077531E /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77430B50274BE8E60077531E /* NiblessView.swift */; };
 		77430B53274BE8F50077531E /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77430B52274BE8F50077531E /* NiblessViewController.swift */; };
 		77430B55274BE9560077531E /* TVShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77430B54274BE9560077531E /* TVShowDetailViewController.swift */; };
-		777CCC2D274C742D00569B69 /* iOSSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC2C274C742D00569B69 /* iOSSnapshotTestCase */; };
-		777CCC2E274C742D00569B69 /* iOSSnapshotTestCase in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC2C274C742D00569B69 /* iOSSnapshotTestCase */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		7774334E274D13D20089C549 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 7774334D274D13D20089C549 /* SnapshotTesting */; };
 		777CCC37274C76CA00569B69 /* SnapshotTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CCC36274C76CA00569B69 /* SnapshotTestDemoTests.swift */; };
-		777CCC40274C823D00569B69 /* iOSSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC3F274C823D00569B69 /* iOSSnapshotTestCase */; };
-		777CCC42274C823D00569B69 /* iOSSnapshotTestCase in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC3F274C823D00569B69 /* iOSSnapshotTestCase */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		777CCC44274C828D00569B69 /* TVShowDetailInfo+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CCC43274C828D00569B69 /* TVShowDetailInfo+Stub.swift */; };
 		777CCC47274C85CB00569B69 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC46274C85CB00569B69 /* SnapshotTesting */; };
 		777CCC4A274C860200569B69 /* PointFreeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CCC49274C860200569B69 /* PointFreeDemoTests.swift */; };
-		777CCC4C274C869600569B69 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC4B274C869600569B69 /* SnapshotTesting */; };
 		77ECB488249FD18B007F93F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB487249FD18B007F93F9 /* AppDelegate.swift */; };
 		77ECB48C249FD18B007F93F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB48B249FD18B007F93F9 /* ViewController.swift */; };
 		77ECB491249FD18D007F93F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77ECB490249FD18D007F93F9 /* Assets.xcassets */; };
@@ -46,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				777CCC2E274C742D00569B69 /* iOSSnapshotTestCase in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +52,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				777CCC42274C823D00569B69 /* iOSSnapshotTestCase in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,8 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777CCC40274C823D00569B69 /* iOSSnapshotTestCase in Frameworks */,
-				777CCC4C274C869600569B69 /* SnapshotTesting in Frameworks */,
+				7774334E274D13D20089C549 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777CCC2D274C742D00569B69 /* iOSSnapshotTestCase in Frameworks */,
 				777CCC47274C85CB00569B69 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,8 +182,7 @@
 			);
 			name = SnapshotTestDemoTests;
 			packageProductDependencies = (
-				777CCC3F274C823D00569B69 /* iOSSnapshotTestCase */,
-				777CCC4B274C869600569B69 /* SnapshotTesting */,
+				7774334D274D13D20089C549 /* SnapshotTesting */,
 			);
 			productName = SnapshotTestDemoTests;
 			productReference = 777CCC34274C76CA00569B69 /* SnapshotTestDemoTests.xctest */;
@@ -213,7 +204,6 @@
 			);
 			name = SnapshotTestDemo;
 			packageProductDependencies = (
-				777CCC2C274C742D00569B69 /* iOSSnapshotTestCase */,
 				777CCC46274C85CB00569B69 /* SnapshotTesting */,
 			);
 			productName = BaseProjectiOS12;
@@ -249,7 +239,6 @@
 			);
 			mainGroup = 77ECB47B249FD18B007F93F9;
 			packageReferences = (
-				777CCC2B274C742D00569B69 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */,
 				777CCC45274C85CB00569B69 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 77ECB485249FD18B007F93F9 /* Products */;
@@ -580,14 +569,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		777CCC2B274C742D00569B69 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/uber/ios-snapshot-test-case.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
 		777CCC45274C85CB00569B69 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
@@ -599,22 +580,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		777CCC2C274C742D00569B69 /* iOSSnapshotTestCase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 777CCC2B274C742D00569B69 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
-			productName = iOSSnapshotTestCase;
-		};
-		777CCC3F274C823D00569B69 /* iOSSnapshotTestCase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 777CCC2B274C742D00569B69 /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
-			productName = iOSSnapshotTestCase;
-		};
-		777CCC46274C85CB00569B69 /* SnapshotTesting */ = {
+		7774334D274D13D20089C549 /* SnapshotTesting */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 777CCC45274C85CB00569B69 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
 		};
-		777CCC4B274C869600569B69 /* SnapshotTesting */ = {
+		777CCC46274C85CB00569B69 /* SnapshotTesting */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 777CCC45274C85CB00569B69 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
