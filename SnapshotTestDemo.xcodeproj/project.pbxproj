@@ -17,7 +17,6 @@
 		7774334E274D13D20089C549 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 7774334D274D13D20089C549 /* SnapshotTesting */; };
 		777CCC37274C76CA00569B69 /* SnapshotTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CCC36274C76CA00569B69 /* SnapshotTestDemoTests.swift */; };
 		777CCC44274C828D00569B69 /* TVShowDetailInfo+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CCC43274C828D00569B69 /* TVShowDetailInfo+Stub.swift */; };
-		777CCC47274C85CB00569B69 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 777CCC46274C85CB00569B69 /* SnapshotTesting */; };
 		777CCC4A274C860200569B69 /* PointFreeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777CCC49274C860200569B69 /* PointFreeDemoTests.swift */; };
 		77ECB488249FD18B007F93F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB487249FD18B007F93F9 /* AppDelegate.swift */; };
 		77ECB48C249FD18B007F93F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ECB48B249FD18B007F93F9 /* ViewController.swift */; };
@@ -92,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777CCC47274C85CB00569B69 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +202,6 @@
 			);
 			name = SnapshotTestDemo;
 			packageProductDependencies = (
-				777CCC46274C85CB00569B69 /* SnapshotTesting */,
 			);
 			productName = BaseProjectiOS12;
 			productReference = 77ECB484249FD18B007F93F9 /* SnapshotTestDemo.app */;
@@ -581,11 +578,6 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		7774334D274D13D20089C549 /* SnapshotTesting */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 777CCC45274C85CB00569B69 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
-			productName = SnapshotTesting;
-		};
-		777CCC46274C85CB00569B69 /* SnapshotTesting */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 777CCC45274C85CB00569B69 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
 			productName = SnapshotTesting;
